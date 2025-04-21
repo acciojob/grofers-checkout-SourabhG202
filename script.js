@@ -11,7 +11,7 @@ const getSum = () => {
 	});
 	const table = document.querySelector("table");
 	const newRow = document.createElement("tr");
-	const totalcell = document.querySelector("td");
+	const totalcell = document.createElement("td");
 	totalcell.colSpan = 2;
 	totalcell.textContent = `Total Price: ₹${total}`;
 	totalcell.style.fontWeight = "bold";
