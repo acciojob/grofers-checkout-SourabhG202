@@ -15,6 +15,7 @@ const getSum = () => {
 	totalcell.colSpan = 2;
 	totalcell.textContent = `Total Price: ₹${total}`;
 	totalcell.style.fontWeight = "bold";
+	totalcell.style.textAlign = "center";
 
 	newRow.appendChild(totalcell);
 	table.appendChild(newRow);
