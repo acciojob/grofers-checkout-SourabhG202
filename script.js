@@ -12,6 +12,7 @@ const getSum = () => {
 	const table = document.querySelector("table");
 	const newRow = document.createElement("tr");
 	const totalcell = document.createElement("td");
+	totalcell.setAttribute("id","ans");
 	totalcell.colSpan = 2;
 	totalcell.textContent = `Total Price: ₹${total}`;
 	totalcell.style.fontWeight = "bold";
